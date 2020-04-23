@@ -1,0 +1,37 @@
+package segundaAep;
+
+public class ContaBancaria {
+   private String nome;
+   private int numConta;
+   private int senha;
+
+   public ContaBancaria() {
+		System.out.println("Criando ContaBancaria:");
+   }    
+   public ContaBancaria (String nome, int numConta, int senha) {
+      this.nome = nome;
+      this.numConta = numConta;
+      this.senha = senha;
+     
+   }
+   public void setnome(String nome) {
+		this.nome = nome;
+	}
+	public void setnumConta(int numConta) { 
+			this.setnumConta(numConta);
+	}
+	public void verificarsenha(int senha) {
+		if(this.senha != senha ) {
+			throw new RuntimeException("Senha inválido.");
+		}
+	
+	}
+	public int getnumConta() {
+		return numConta;
+	}
+	
+   public String getnome() {
+      return nome;
+   
+   }
+} 	
