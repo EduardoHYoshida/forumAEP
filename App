@@ -1,0 +1,19 @@
+package segundaAep;
+
+public class App {
+	
+	public static void main(String[] args) {
+       try { 
+		      ContaBancaria  ireneu = new ContaBancaria("ireneu silva", 32538-3, 456321);
+		      System.out.println(ireneu);
+		      
+		      ContaBancaria  ricardo = new ContaBancaria("ricardo osmar", 56755-3, 675679);
+		      System.out.println(ricardo);
+       
+       } catch (RuntimeException exc) {
+			System.out.println("Mensagem de exceção: " + exc.getMessage());
+	   }
+     
+	}
+       
+}
