@@ -20,3 +20,15 @@ No encapsulamento os atributos das classes são do tipo private. Para ter acesso
 Os métodos setters servem para alterar a informação de uma propriedade de um objeto. Com o uso do setter promovem o reuso do código, sem 
 precisar criar uma nova classe com novos atributos ou metodos, diminuindo a complexidade do codigo, o tempo de desenvolvimento e o número 
 de linhas de código.   
+Ex
+public void setNomeProduto(Stringnomeproduto) {
+this.nomeproduto = nomeproduto;
+}
+ 
+public void setQuantidade(int quantidade) {
+this.quantidade = quantidade;
+}
+ 
+public void setValorUnitario(String valorunitario) {
+this.valorunitario = valorunitario;
+}
