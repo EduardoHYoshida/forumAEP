@@ -1,6 +1,6 @@
 1. Explicar o conceito de encapsulamento (métodos e atributos), destacando seu propósito.
-Encapsulamento é utilizado para proteger os campos e operações de um classe (atributos e métodos).Os atributos das classes  privado(private) 
-só podem ser acessados dentro da classe em que foram declarados, isso garante que não ocorrerão ações inadequadas no 
+Encapsulamento é utilizado para proteger os campos e operações de um classe (atributos e métodos). Os atributos das classes  privado(private)
+só podem ser acessados dentro da classe em que foram declarados,  tudo que é feito na classe (atributos e métodos) ficam ocultos para as demais classes isso garante que não ocorrerão ações inadequadas no 
 codigo do programa.
 Ex
 public class ContaBancaria {
